@@ -1,5 +1,5 @@
 export default function filmList (state = {filmList: []},action) {
-    console.log( action,state,'123')
+    // console.log( action,state,'123')
     const { payload, type} = action;
     switch (type) {
         case 'RANK':

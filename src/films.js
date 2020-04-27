@@ -7,7 +7,6 @@ function Demo({ list, getFilmList }) {
     });
     return (
         <div onClick = {()=>{
-            console.log(2)
             getFilmList()
         }}>
             123
@@ -28,7 +27,7 @@ const mapDispatchToProps = dispatch => ({
                 type: 'a',
                 payload: ['1']
             })
-            dispatch({
+            return dispatch({
                 type: 'RANK',
                 payload: [...res.subjects]
             })
