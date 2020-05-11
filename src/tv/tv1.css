@@ -1,0 +1,9 @@
+.tvBox{
+    border: 1px solid #00f;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.tvContent{
+    position: absolute;
+}
